@@ -1,0 +1,146 @@
+
+
+
+
+body{
+  background: #ddd;
+  color: #fff;
+  margin: 0px;
+}
+
+#umbrella{
+	background: white;
+	width:auto;
+	margin: auto;
+}
+#header{
+	background:white ;
+	display: flex;
+	justify-content: space-between;
+}
+
+.png > img{
+   padding:0px;
+   height: 80px;
+}
+
+.list{
+	padding: 0px;
+}
+.menu{
+	display: flex;
+	list-style-type: none;
+	padding: 0px;
+	margin: 25px 0px;
+	/*justify-content: safe flex-end;*/
+	
+
+}
+.menu li a{
+	text-decoration: none;
+	padding: 20px;
+	color: black;
+    font-weight: bold;
+}
+.menu li a:hover{
+	background: aliceblue;
+}
+
+#nav{
+	background-image: url('../images/banner.png');
+	padding: 160px;
+	background-size: contain;
+}
+#nav h1{
+	padding: 0px;
+	font-size: 55px;
+	font-family: 'Abel', sans-serif;
+}
+#nav p{
+	font-family: 'Dancing Script', cursive;
+}
+.special {
+	background: url('../images/omo.png') no-repeat center/450px 95px;
+    padding: 10px 10px;
+    margin: 20px 0;
+}
+.special h1{
+	text-align: center;
+    color: #000;
+    font-family: 'Pinyon Script', cursive;
+    font-size: 35px;
+}  
+.food-menu{
+	color: #000;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+	padding: 50px;
+	margin: 50px;
+
+}
+.pattern{
+	border: 1px solid #ddd;
+	padding: 10px;
+	margin: auto;
+	margin-bottom: 10px;
+	box-shadow: 0px 0px 18px #ddd;
+  font-family: 'Oswald', sans-serif
+}
+#footer{
+	background:aliceblue;
+	color: #000;
+	display: flex;
+	justify-content: space-evenly;
+	font-family: 'Mulish', sans-serif;
+}
+.footer{
+	display: flex;
+	padding: 5px;
+	
+}
+.footer > img{
+  /*width: 15px;*/
+  height: 3rem;
+}
+.png2 > img{
+	 padding:0px;
+   height: 80px;
+}
+
+/*.image-container{
+	width: 90px;
+	height: 90px;
+	margin-right: 10px;
+}
+
+.image-container > img{
+	width: auto;
+	height: 90px;
+}*/
+
+@font-face {
+    font-family: 'arimathin';
+    src: url('arima-variablefont_wght-webfont.woff2') format('woff2'),
+         url('arima-variablefont_wght-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+.phase-3{
+	padding: 0px;
+	margin: 0px;
+
+}
+#footer-pro{
+	background:aliceblue;
+	color: #000;
+	text-align: center;
+	padding: 3px;
+}
+#footer-pro span{
+	font-style: italic;
+	font-weight: bold;
+}

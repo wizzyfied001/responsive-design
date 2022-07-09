@@ -1,0 +1,88 @@
+@media screen and (max-width: 800px){
+
+body{
+  background: #ddd;
+  color: #fff;
+  
+}	
+#umbrella{
+	background: white;
+	width:700px;
+	margin: auto;
+}
+
+#header{
+	display: flex;
+	flex-direction: column;
+
+}
+.list{
+	background: black;
+}
+.menu{
+	display: flex;
+	flex-direction: column;
+	line-height: 35px;
+	background: black;
+}
+.menu li a{
+	color:white;
+}
+.menu li a:hover{
+	background: red;
+}
+#nav{
+	background-image: url("images/mobile-banner.jpg");	
+}
+
+.special {
+	background: url('images/omo.png') no-repeat center/650px 105px;
+    padding: 10px 10px;
+    margin: 20px 0;
+}
+
+.food-menu{
+	color: #000;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+	padding: 50px;
+	margin: 50px;
+}
+.pattern >img{
+	width: 27rem;
+}
+
+#footer{
+	display: flex;
+	flex-direction: column;
+	font-size: 2rem;
+}
+.png2>img{
+	padding: 0px;
+	height: 15.6rem;
+}
+
+.footer{
+	display: flex;
+	flex-direction: column;
+	
+}
+.footer > img {
+	width: 30rem;
+	height: 30rem;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+}
