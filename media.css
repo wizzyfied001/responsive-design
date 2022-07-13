@@ -52,6 +52,10 @@ body{
 .pattern >img{
 	width: 27rem;
 }
+.pattern{
+	margin-bottom: 2rem;
+	margin-left: 11.4rem;
+}
 
 #footer{
 	display: flex;
@@ -84,26 +88,28 @@ body{
 	/* display: flex;
 	flex-direction: row; */
 	position: relative;
-	left: -15%;
+	left: -14%;
 }
 .pattern > img{
 	width: 10rem;
 }
-/*#footer-pro > p{
-  position: relative;
-	left: -10%;
-}*/
-/*.png2 > img {
-	width: 15rem;
-	height: 6rem;
-}*/
+.phase-1{
+	margin-top: 1.5rem;
+	margin-left:1.3rem ;
+}
 .phase-1 > p{
 	font-size: 1.2rem;
-	
+}
+.phase-2{
+	margin-left: 1.3rem;
+}
+.phase-3, .phase-4{
+	margin-left: 1.3rem;
 }
 
-
-
+.h2{
+	font-size: 2.3rem;
+}
 
 
 
